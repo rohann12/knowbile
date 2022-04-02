@@ -1,0 +1,35 @@
+#main_pages {
+    float: right;
+    position: relative;
+    margin-top: 20px;
+}
+
+nav {
+    font-family: 'Comic Sans MS';
+    overflow: hidden;
+    background-color: #3c3d4f;
+    width: 100%;
+    height: 67px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main_pages a {
+    color: #fff;
+    padding: 20px 30px 20px 20px;
+    text-decoration: none;
+}
+
+img {
+    position: absolute;
+    margin-top: 0.25%;
+}
+
+#main_pages a:hover {
+    background-color: #3B544F;
+    font-size: 120%;
+    transition: 0.5s;
+}
